@@ -1,0 +1,164 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+h2{
+  font-size: 3rem;
+  line-height: 2;
+}
+h3{
+  font-size: 1.5rem;
+}
+
+body{
+  font-family: 'Montserrat';
+
+}
+p{
+  color: #8f8f8f;
+}
+
+/* headings */
+
+.big-heading{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+.titlePic{
+  position: absolute;
+  right: 30%;
+  width: 60%;
+  transform: rotate(25deg);
+}
+.fa-bone{
+  transform: rotate(-30deg);
+}
+
+/* navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.nav-link{
+  font-weight: lighter;
+
+  font-size: 1.2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar-brand{
+  font-family:Ubuntu;
+  font-size: 2.0rem;
+  font-weight:bold;
+}
+
+/* buttons  */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.fa-check-circle{
+  color: #ef8172;
+  font-size:3rem;
+  margin: 15px;
+}
+.fa-bullseye{
+  color: #ef8172;
+  font-size:3rem;
+  margin: 15px;
+}
+.fa-heart{
+  color: #ef8172;
+  font-size:3rem;
+  margin: 15px;
+}
+.fa-check-circle:hover{
+  color: #ff4c68;
+}
+.fa-heart:hover{
+  color: #ff4c68;
+}.fa-bullseye:hover{
+  color: #ff4c68;
+}
+.testimonial-image{
+  margin:20px;
+  width:10%;
+  border-radius: 100%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+  }
+.pricing-column{
+  padding:3% 2%;
+}
+.call-to-action{
+  font-size: 3rem;
+}
+  .titlePic{
+    position: static;
+    transform: rotate(0);
+  }
+  .icon-footer{
+    margin: auto 2% 3%;
+  }
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#testimonials{
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+
+#title {
+  color: white;
+  background-color: #ff4c68;
+}
+
+#features{
+  position: relative;
+  padding-bottom: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+
+#cta {
+  text-align: center;
+  padding: 5% 20%;
+  color: white;
+  background-color: #ff4c68;
+}
+
+#footer{
+padding: 5% 20% 1%;
+text-align: center;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+}
